@@ -86,7 +86,7 @@ class SimpleMathTest {
     
     
     @Test
-    @DisplayName(" Test (6.2 + 2) / 2 = 4.1")
+    @DisplayName(" Test 6.2 + 2 = 8.2 / 2 = 4.1")
     void testMean() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
@@ -101,7 +101,7 @@ class SimpleMathTest {
         //assertNotNull(actual);
     }
     @Test
-    @DisplayName(" Square Root of 81 = 9")
+    @DisplayName(" Test 6.2 + 2 = 8.2")
     void testSquareRoot() {
         SimpleMath math = new SimpleMath();
         double number = 81D;
