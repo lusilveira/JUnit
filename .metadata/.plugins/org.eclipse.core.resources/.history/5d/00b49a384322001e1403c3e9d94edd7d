@@ -17,8 +17,7 @@ class SimpleMathTest {
         double expected = 8.2D;
         
         assertEquals(expected, actual,
-        	() ->	firstNumber + "+"+ secondNumber +
-        		" did not produce "+ expected+"!");
+        		firstNumber + "+"+ secondNumber +" did not produce "+ expected+"!");
         assertNotEquals(9.2, actual);
         assertNotNull(actual);
     }
