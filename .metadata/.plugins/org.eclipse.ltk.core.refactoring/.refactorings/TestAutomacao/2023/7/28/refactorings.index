@@ -1,3 +1,5 @@
 1689290349965	Rename package 'br.com.erudio.math'
 1689290446918	Rename package 'br.com.erudio.math'
 1689290462124	Rename package 'br.com.erudio'
+1689337616883	Extract local variable 'firstNumber'
+1689337679919	Extract local variable 'secondNumber'

@@ -12,12 +12,10 @@ class SimpleMathTest {
     void testSum() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
-		double secondNumber = 2D;
-		Double actual = math.sum(firstNumber, secondNumber);
+		Double actual = math.sum(firstNumber, 2D);
         double expected = 8.2D;
         
-        assertEquals(expected, actual,
-        		firstNumber + "+"+ secondNumber +" did not produce "+ expected+"!");
+        assertEquals(expected, actual,"6.2+2 did not produce 8.2!");
         assertNotEquals(9.2, actual);
         assertNotNull(actual);
     }

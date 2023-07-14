@@ -940,3 +940,15 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 09:18:42.757
 !MESSAGE Classpath changed for project: TestAutomacao
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 09:26:57.011
+!MESSAGE Classpath changed for project: TestAutomacao
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 09:28:00.034
+!MESSAGE Classpath changed for project: TestAutomacao
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 09:31:43.644
+!MESSAGE Classpath changed for project: TestAutomacao
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-14 09:32:15.016
+!MESSAGE Classpath changed for project: TestAutomacao
