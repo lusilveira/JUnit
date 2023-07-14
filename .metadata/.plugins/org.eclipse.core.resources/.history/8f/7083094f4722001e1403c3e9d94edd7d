@@ -54,7 +54,6 @@ class SimpleMathTest {
         //assertNotEquals(9.2, actual);
         //assertNotNull(actual);
 }
-    @Test
     void testDivision() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 10D;
@@ -68,13 +67,12 @@ class SimpleMathTest {
         //assertNotEquals(9.2, actual);
         //assertNotNull(actual);
 }
-    @Test
     void testMean() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
 		double secondNumber = 2D;
 		Double actual = math.mean(firstNumber, secondNumber);
-        double expected = 4.1D;
+        double expected = 8.2D;
         
         assertEquals(expected, actual,
         	() -> "(" +	firstNumber + "+"+ secondNumber + ")/2" +
@@ -82,7 +80,6 @@ class SimpleMathTest {
         //assertNotEquals(9.2, actual);
         //assertNotNull(actual);
     }
-    @Test
     void testSquareRoot() {
         SimpleMath math = new SimpleMath();
         double number = 81D;

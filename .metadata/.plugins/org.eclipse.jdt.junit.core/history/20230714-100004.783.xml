@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SimpleMathTest" project="TestAutomacao" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.lsilveira.math.SimpleMathTest" time="0.008" displayname="SimpleMathTest" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]">
+    <testcase name="testSum" classname="br.com.lsilveira.math.SimpleMathTest" time="0.007" displayname="testSum()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testSum()]"/>
+    <testcase name="testMultiplication" classname="br.com.lsilveira.math.SimpleMathTest" time="0.001" displayname="testMultiplication()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testMultiplication()]"/>
+    <testcase name="testSubtraction" classname="br.com.lsilveira.math.SimpleMathTest" time="0.0" displayname="testSubtraction()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testSubtraction()]"/>
+  </testsuite>
+</testrun>

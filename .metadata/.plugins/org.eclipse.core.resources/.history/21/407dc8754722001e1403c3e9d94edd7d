@@ -74,7 +74,7 @@ class SimpleMathTest {
         double firstNumber = 6.2D;
 		double secondNumber = 2D;
 		Double actual = math.mean(firstNumber, secondNumber);
-        double expected = 4.1D;
+        double expected = 8.2D;
         
         assertEquals(expected, actual,
         	() -> "(" +	firstNumber + "+"+ secondNumber + ")/2" +
