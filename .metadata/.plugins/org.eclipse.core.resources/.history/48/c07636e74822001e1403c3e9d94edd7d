@@ -7,11 +7,9 @@ import org.junit.jupiter.api.Test;
 
 
 class SimpleMathTest {
-	
-	// test[System Under Test]_[Condition or State Change]_[Expected Result]
 
     @Test
-    void testSum_When_SixDotTwoIsAddedByTwo_ShouldReturnEightDotwo() {
+    void testSum() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
 		double secondNumber = 2D;
@@ -70,15 +68,6 @@ class SimpleMathTest {
         //assertNotEquals(9.2, actual);
         //assertNotNull(actual);
 }
-    
-    
-    	// test[System Under Test]_[Condition or State Change]_[Expected Result]
-    	@Test
-        void testDivision_When_FirstNumberDividedByZero_ShouldThrowArithmecExpected() {
-    		fail();
-    	}
-    
-    
     @Test
     void testMean() {
         SimpleMath math = new SimpleMath();

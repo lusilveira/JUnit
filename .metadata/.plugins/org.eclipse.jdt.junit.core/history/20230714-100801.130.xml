@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SimpleMathTest" project="TestAutomacao" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.lsilveira.math.SimpleMathTest" time="0.011" displayname="SimpleMathTest" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]">
+    <testcase name="testSum" classname="br.com.lsilveira.math.SimpleMathTest" time="0.007" displayname="testSum()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testSum()]"/>
+    <testcase name="testMean" classname="br.com.lsilveira.math.SimpleMathTest" time="0.001" displayname="testMean()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testMean()]"/>
+    <testcase name="testMultiplication" classname="br.com.lsilveira.math.SimpleMathTest" time="0.001" displayname="testMultiplication()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testMultiplication()]"/>
+    <testcase name="testDivision" classname="br.com.lsilveira.math.SimpleMathTest" time="0.0" displayname="testDivision()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testDivision()]"/>
+    <testcase name="testSquareRoot" classname="br.com.lsilveira.math.SimpleMathTest" time="0.0" displayname="testSquareRoot()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testSquareRoot()]"/>
+    <testcase name="testSubtraction" classname="br.com.lsilveira.math.SimpleMathTest" time="0.0" displayname="testSubtraction()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTest]/[method:testSubtraction()]"/>
+  </testsuite>
+</testrun>
