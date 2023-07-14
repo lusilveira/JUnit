@@ -27,7 +27,7 @@ Follow the installation instructions provided on the Apache Maven website to ins
 Verify the installation by opening a command prompt or terminal and running the command mvn --version. It should display the installed version of Maven.
 
 
-## Study learning about BDD, AAA
+## Study learning about BDD Style - Given, When and Then ou Arrange, Act e Assert (AAA)
 ##### To know the best concept to deploy in unit tests
 ##### Regardless of the programming language, the concept is the same
 ###### 01 - https://en.wikipedia.org/wiki/Behavior-driven_development
