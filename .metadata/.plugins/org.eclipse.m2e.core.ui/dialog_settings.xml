@@ -75,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Volumes/HD-EXTERNO/JUnit/TestAutomacao"/>
 			<item value="/Volumes/HD-EXTERNO/JUnit"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -101,5 +102,9 @@
 		<item key="height" value="494"/>
 		<item key="x" value="548"/>
 		<item key="y" value="104"/>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
