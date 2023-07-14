@@ -14,7 +14,7 @@ class SimpleMathTest {
         Double actual = math.sum(6.2D, 2D);
         double expected = 8.2D;
         
-        assertEquals(expected, actual,"The testSum() did not produce expected result");
+        assertEquals(expected, actual);
     }
 
 }
