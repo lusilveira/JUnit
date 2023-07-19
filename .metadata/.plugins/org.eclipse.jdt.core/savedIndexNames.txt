@@ -4,7 +4,6 @@ INDEX VERSION 1.134+/Volumes/HD-EXTERNO/JUnit/.metadata/.plugins/org.eclipse.jdt
 607586223.index
 1713212380.index
 1865797976.index
-1853182925.index
 1580121767.index
 3024029033.index
 2111648082.index
