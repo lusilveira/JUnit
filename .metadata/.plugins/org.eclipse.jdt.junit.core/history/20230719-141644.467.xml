@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SimpleMathTestS4" project="TestAutomacao" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="br.com.lsilveira.math.SimpleMathTestS4" time="0.0" displayname="Test Math Operations in SimpleMath Class" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]">
-    <testcase name="testDivision" classname="br.com.lsilveira.math.SimpleMathTestS4" time="0.0" displayname="Test 6.2 / 2 = 3.1" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]/[method:testDivision()]"/>
-  </testsuite>
-</testrun>
