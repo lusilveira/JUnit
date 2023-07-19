@@ -18,7 +18,7 @@ class ArraysCompareTest {
 		
 		Arrays.sort(numbers);
 		
-		assertArrayEquals(numbers, expectedArray);
+		assertEquals(numbers, expectedArray);
 	}
 
 }
