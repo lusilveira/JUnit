@@ -19,7 +19,7 @@ class SimpleMathTestS4 {
 	@BeforeEach
 	void beforeEachMethod() {
 		math = new SimpleMath();
-		//System.out.println("Running @BeforeEach method!");
+		System.out.println("Running @BeforeEach method!");
 	}
 
 	@DisplayName("Test 6.2 / 2 = 3.1")
@@ -27,12 +27,9 @@ class SimpleMathTestS4 {
 	@MethodSource("testDivisionInputParameters")
 	void testDivision(double firstNumber, double secondNumber, double expected) {
 
-		System.out.println("Test" + firstNumber + "/" + secondNumber + "=" + expected + "!");
 		Double actual = math.division(firstNumber, secondNumber);
-		
 
-		assertEquals(expected, actual, 2D,
-				() -> firstNumber + "/" + secondNumber + " did not produce " + expected + "!");
+		assertEquals(expected, actual, () -> firstNumber + "/" + secondNumber + " did not produce " + expected + "!");
 	}
 
 	public static Stream<Arguments> testDivisionInputParameters() {

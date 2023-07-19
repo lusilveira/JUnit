@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SimpleMathTestS4" project="TestAutomacao" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.lsilveira.math.SimpleMathTestS4" time="0.015" displayname="Test Math Operations in SimpleMath Class" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]">
+    <testsuite name="testDivision(br.com.lsilveira.math.SimpleMathTestS4)" time="0.015" displayname="Test 6.2 / 2 = 3.1" parameters="double,double,double" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]/[test-template:testDivision(double, double, double)]">
+      <testcase name="testDivision" classname="br.com.lsilveira.math.SimpleMathTestS4" time="0.015" dynamicTest="true" displayname="[1] 6.2, 2.0, 3.1" parameters="double,double,double" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]/[test-template:testDivision(double, double, double)]/[test-template-invocation:#1]"/>
+      <testcase name="testDivision" classname="br.com.lsilveira.math.SimpleMathTestS4" time="0.001" dynamicTest="true" displayname="[2] 71.0, 14.0, 5.07" parameters="double,double,double" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]/[test-template:testDivision(double, double, double)]/[test-template-invocation:#2]"/>
+      <testcase name="testDivision" classname="br.com.lsilveira.math.SimpleMathTestS4" time="0.0" dynamicTest="true" displayname="[3] 18.3, 3.1, 5.9" parameters="double,double,double" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.math.SimpleMathTestS4]/[test-template:testDivision(double, double, double)]/[test-template-invocation:#3]"/>
+    </testsuite>
+  </testsuite>
+</testrun>
