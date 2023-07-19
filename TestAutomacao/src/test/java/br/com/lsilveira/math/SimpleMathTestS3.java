@@ -1,0 +1,176 @@
+package br.com.lsilveira.math;
+
+import static org.junit.jupiter.api.Assertions. *;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+
+@DisplayName("Test Math Operations in SimpleMath Class")
+class SimpleMathTestS3 {
+	
+	SimpleMath math;
+	
+	@BeforeAll
+	static void setup() {
+		System.out.println("Running @BeforeAll method!");
+	}	
+	
+	@AfterAll
+	static void cleanup() {
+		System.out.println("Running @AfterAll method!");
+	}	
+	
+	@BeforeEach
+	void beforeEachMethod() {
+		math = new SimpleMath();
+		System.out.println("Running @BeforeEach method!");
+	}	
+	
+	@AfterEach
+	void afterEachMethod() {
+		System.out.println("Running @AfterEach method!");
+	}	
+	
+	// test[System Under Test]_[Condition or State Change]_[Expected Result]
+
+    @Test
+    @DisplayName(" Test 6.2 + 2 = 8.2")
+    void testSum_When_SixDotTwoIsAddedByTwo_ShouldReturnEightDotwo() {
+    	System.out.println("Test 6.2 + 2 = 8.2");
+    	// AAA = Arrange, Act ,Assert
+    	// Given = Arrange
+    	
+    	
+        double firstNumber = 6.2D;
+		double secondNumber = 2D;
+		double expected = 8.2D;
+		
+    	// When = Act
+		Double actual = math.sum(firstNumber, secondNumber);
+		
+    	// The = Assert
+        assertEquals(expected, actual,
+        	() ->	firstNumber + "+"+ secondNumber +
+        		" did not produce "+ expected+"!");
+        assertNotEquals(9.2, actual);
+        assertNotNull(actual);
+        
+        
+    }
+    
+    @Test
+    @DisplayName("Test 6.2 - 2 = 4.2")
+    void testSubtraction() {
+    	System.out.println("Test 6.2 - 2 = 4.2");
+        
+        double firstNumber = 6.2D;
+		double secondNumber = 2D;
+		Double actual = math.subtraction(firstNumber, secondNumber);
+        double expected = 4.2D;
+        
+        assertEquals(expected, actual,
+        	() ->	firstNumber + "-"+ secondNumber +
+        		" did not produce "+ expected+"!");
+        //assertNotEquals(9.2, actual);
+        //assertNotNull(actual);
+    
+}
+    @Test
+    @DisplayName("Test 2 * 2 = 4")
+    void testMultiplication() {
+    	System.out.println("Test 2 * 2 = 4");
+        
+        double firstNumber = 2D;
+		double secondNumber = 2D;
+		Double actual = math.multiplication(firstNumber, secondNumber);
+        double expected = 4D;
+        
+        assertEquals(expected, actual,
+        	() ->	firstNumber + "*"+ secondNumber +
+        		" did not produce "+ expected+"!");
+        //assertNotEquals(9.2, actual);
+        //assertNotNull(actual);
+}
+    @Test
+    @DisplayName("Test 10 / 2 = 5")
+    void testDivision() {
+    	System.out.println("Test 10 / 2 = 5");
+        
+        double firstNumber = 10D;
+		double secondNumber = 2D;
+		Double actual = math.division(firstNumber, secondNumber);
+        double expected = 5D;
+        
+        assertEquals(expected, actual,
+        	() ->	firstNumber + "/"+ secondNumber +
+        		" did not produce "+ expected+"!");
+        //assertNotEquals(9.2, actual);
+        //assertNotNull(actual);
+}
+    
+    
+    	// test[System Under Test]_[Condition or State Change]_[Expected Result]
+    	//@Disabled("TODO: We need Still work on it ")
+    	@Test
+    	@DisplayName("Test Division By Zero")
+        void testDivision_When_FirstNumberDividedByZero_ShouldThrowArithmecExpected() {
+    		System.out.println("Test Division By Zero");
+    		//given
+    		double firstNumber = 6.2D;
+    		double secondNumber = 0D;
+    		
+    		var expectedMessage = "Impossible to divide by Zero!";
+    		
+    		//when & the
+    		ArithmeticException actual = assertThrows(ArithmeticException.class, () -> {
+    			//when & the
+    			math.division(firstNumber, secondNumber);
+    		
+    		}, () -> "Division by Zero");
+    		
+    		assertEquals(expectedMessage, actual.getMessage(), 
+    				() -> "Unexpected exception message!");
+    		
+    	}
+    
+    
+    @Test
+    @DisplayName("Test (6.2 + 2) / 2 = 4.1")
+    void testMean() {
+    	System.out.println("Test (6.2 + 2) / 2 = 4.1");
+        
+        double firstNumber = 6.2D;
+		double secondNumber = 2D;
+		Double actual = math.mean(firstNumber, secondNumber);
+        double expected = 4.1D;
+        
+        assertEquals(expected, actual,
+        	() -> "(" +	firstNumber + "+"+ secondNumber + ")/2" +
+        		" did not produce "+ expected+"!");
+        //assertNotEquals(9.2, actual);
+        //assertNotNull(actual);
+    }
+    @Test
+    @DisplayName("Square Root of 81 = 9")
+    void testSquareRoot() {
+    	System.out.println("Square Root of 81 = 9");
+        
+        double number = 81D;
+        double expected = 9D;
+        
+		Double actual = math.squareRoot(number);
+       
+        
+        assertEquals(expected, actual,
+        	() ->	"Square Root of" + number + 
+        	"did not produce" + expected + "!");
+        //assertNotEquals(9.2, actual);
+        //assertNotNull(actual);
+}
+}

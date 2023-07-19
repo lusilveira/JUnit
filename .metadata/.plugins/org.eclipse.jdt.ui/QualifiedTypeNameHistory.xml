@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Disabled"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="br.com.lsilveira.math.SimpleMath"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
+    <fullyQualifiedTypeName name="br.com.lsilveira.ArraysCompareTest"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Timeout"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 </qualifiedTypeNameHistroy>
