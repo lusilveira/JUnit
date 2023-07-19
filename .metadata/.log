@@ -11755,3 +11755,6 @@ Binding(COMMAND+R,
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-19 14:39:39.879
 !MESSAGE Classpath changed for project: TestAutomacao
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-19 14:42:07.003
+!MESSAGE Classpath changed for project: TestAutomacao
