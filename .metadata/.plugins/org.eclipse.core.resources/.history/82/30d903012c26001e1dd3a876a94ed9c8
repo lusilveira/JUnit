@@ -2,7 +2,6 @@ package br.com.lsilveira.math;
 
 import static org.junit.jupiter.api.Assertions. *;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -85,7 +84,6 @@ class SimpleMathTest {
     
     
     	// test[System Under Test]_[Condition or State Change]_[Expected Result]
-    	@Disabled("TODO: We need Still work on it ")
     	@Test
     	@DisplayName(" Test Division By Zero")
         void testDivision_When_FirstNumberDividedByZero_ShouldThrowArithmecExpected() {
@@ -123,5 +121,14 @@ class SimpleMathTest {
         	"did not produce" + expected + "!");
         //assertNotEquals(9.2, actual);
         //assertNotNull(actual);
+        
 }
+    //test[System Under Test]_[Condition or State Change]_[Expected Result]
+	@DisplayName("DisplayName")
+	@Test
+	void testABCD_When_XYZ_Should() {
+		// Given / Arrange
+		//When / Act
+		// The / Assert
+	}
 }
