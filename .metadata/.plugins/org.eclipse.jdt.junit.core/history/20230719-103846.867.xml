@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ArraysCompareTest" project="TestAutomacao" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.lsilveira.ArraysCompareTest" time="0.014" displayname="ArraysCompareTest" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.ArraysCompareTest]">
+    <testcase name="test" classname="br.com.lsilveira.ArraysCompareTest" time="0.005" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.ArraysCompareTest]/[method:test()]"/>
+    <testcase name="testSortPerfomace" classname="br.com.lsilveira.ArraysCompareTest" time="0.008" displayname="testSortPerfomace()" uniqueid="[engine:junit-jupiter]/[class:br.com.lsilveira.ArraysCompareTest]/[method:testSortPerfomace()]"/>
+  </testsuite>
+</testrun>
