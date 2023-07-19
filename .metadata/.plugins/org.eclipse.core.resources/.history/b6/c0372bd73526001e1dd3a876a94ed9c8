@@ -127,15 +127,11 @@ class SimpleMathTest {
     		
     		var expectedMessage = "Impossible to divide by Zero!";
     		
-    		//when & the
-    		ArithmeticException actual = assertThrows(ArithmeticException.class, () -> {
+    		assertThrows(ArithmeticException.class, () -> {
     			//when & the
-    			math.division(firstNumber, secondNumber);
-    		
+    		ArithmeticException actual = assertThrows(ArithmeticException.class);	
+    			math.division(firstNumber , secondNumber);
     		}, () -> "Division by Zero");
-    		
-    		assertEquals(expectedMessage, actual.getMessage(), 
-    				() -> "Unexpected exception message!");
     		
     	}
     

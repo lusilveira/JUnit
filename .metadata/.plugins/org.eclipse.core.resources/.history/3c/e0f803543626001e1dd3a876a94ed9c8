@@ -134,9 +134,6 @@ class SimpleMathTest {
     		
     		}, () -> "Division by Zero");
     		
-    		assertEquals(expectedMessage, actual.getMessage(), 
-    				() -> "Unexpected exception message!");
-    		
     	}
     
     

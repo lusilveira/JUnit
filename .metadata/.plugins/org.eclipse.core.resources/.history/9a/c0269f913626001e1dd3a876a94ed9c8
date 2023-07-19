@@ -123,7 +123,7 @@ class SimpleMathTest {
     		System.out.println("Test Division By Zero");
     		//given
     		double firstNumber = 6.2D;
-    		double secondNumber = 0D;
+    		double secondNumber = 2D;
     		
     		var expectedMessage = "Impossible to divide by Zero!";
     		
