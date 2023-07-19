@@ -24,7 +24,6 @@ class SimpleMathTestS4 {
 	@ParameterizedTest
 	//@MethodSource("testDivisionInputParameters")
 	//@MethodSource()
-	
 	@CsvSource({
 		
 		"6.2, 2, 3.1", 
@@ -32,13 +31,6 @@ class SimpleMathTestS4 {
 		"18.3, 3.1, 5.90"
 		
 	})
-	/**
-	@CsvSource({
-		"Pelé, Football",
-		"Senna, F1",
-		"Keith Moon, ''"
-	})
-	**/
 	void testDivision(double firstNumber, double secondNumber, double expected) {
 
 		System.out.println("Test" + firstNumber + "/" + secondNumber + "=" + expected + "!");
