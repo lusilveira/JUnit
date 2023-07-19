@@ -21,7 +21,7 @@ class SimpleMathTestS4 {
 		//System.out.println("Running @BeforeEach method!");
 	}
 
-	@DisplayName("Test double sbtraction [firstNumber, secondNumber, expected]")
+	@DisplayName("Test 6.2 / 2 = 3.1")
 	@ParameterizedTest
 	//@MethodSource("testDivisionInputParameters")
 	//@MethodSource()
